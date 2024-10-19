@@ -1,0 +1,233 @@
+@media screen and (width<=780px) {
+  nav {
+    margin-top: 2rem;
+  }
+
+  .logo img {
+    width: 140px;
+    cursor: pointer;
+  }
+
+  .lists {
+    display: none;
+  }
+  .head-desk {
+    display: none;
+  }
+
+  .humb {
+    display: block;
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+
+  .title {
+    font-size: 4rem;
+    font-family: "Fraunces", serif;
+    color: white;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .head-mob {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 105vh;
+    z-index: -1;
+  }
+
+  section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .transform {
+    height: 100vh;
+  }
+  .transform {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+
+    z-index: 2;
+    /* margin-top: -11%; */
+  }
+
+  .trans-mob {
+    display: block;
+    width: 100%;
+    height: 50vh;
+  }
+
+  .trans-desk {
+    display: none;
+  }
+
+  .transform .content {
+    text-align: center;
+  }
+
+  .content {
+    margin-left: 0rem;
+    margin-top: 0rem;
+    font-size: 1.17rem;
+    width: 100%;
+    margin: 7% 0;
+  }
+
+  .content h1 {
+    width: 100%;
+  }
+  .stand-out {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    z-index: 2;
+    margin-top: -11%;
+  }
+
+  .stand-mob {
+    display: block;
+    width: 100%;
+    height: 50%;
+    margin-top: 15%;
+  }
+
+  .stand-desk {
+    display: none;
+  }
+
+  .content-2 {
+    margin-left: 0rem;
+  }
+
+  .content-2 .disc {
+    width: 95%;
+    margin: auto;
+    line-height: 25px;
+    font-size: 1.1rem;
+    margin-bottom: 2.2rem;
+  }
+
+  .graphics-mob {
+    display: block;
+    width: 100%;
+    height: 50%;
+    /* margin-top: 15%; */
+  }
+
+  .graphics-desk {
+    display: none;
+  }
+
+  .last {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .photos .texts {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+    margin-left: 0%;
+    color: #265e53;
+  }
+
+  .graphics .texts {
+    position: absolute;
+    top: 85%;
+    width: 100%;
+    text-align: center;
+    margin-left: 0%;
+    color: #265e53;
+  }
+
+  .texts p {
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 25px;
+  }
+
+  .texts h1 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    font-family: "Fraunces", serif;
+    margin-left: 0%;
+  }
+
+  .photos-desk {
+    display: none;
+  }
+
+  .photos-mob {
+    display: block;
+    width: 100%;
+    height: 50%;
+  }
+  main {
+    height: auto;
+  }
+
+  main h1 {
+    margin-bottom: 2rem;
+  }
+  .testmonials {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .testmonials div {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 8rem;
+  }
+  .testmonials .pic img {
+    margin-bottom: -7rem;
+  }
+  .testmonials .disc {
+    margin-bottom: 1.6rem;
+  }
+
+  .testmonials .name {
+    margin-bottom: 0.6rem;
+  }
+
+  .slides {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .slides div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slides img {
+    width: 50%;
+  }
+
+  .cont {
+    padding: 2rem 0;
+  }
+
+  .cont ul li:last-child {
+    margin-right: 0rem;
+  }
+
+  .lst-arr {
+    height: 60px;
+    top: 88%;
+    right: 10%;
+  }
+}
